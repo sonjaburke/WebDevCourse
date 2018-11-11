@@ -1,0 +1,82 @@
+/*
+Creator: Sonja Burke
+Date created: 11/3/18
+Date last modified: 11/10/18
+*/
+
+body {
+  background-color: #B1FFC9;
+  font-family: arial, helvetica, sans-seriff;
+  color: #0d1f2d;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: #8ECCA1;
+  color: white;
+  height: auto;
+  text-align: center;
+  padding: 5px 10px 20px 10px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+ div.container {
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+.jumbotron {
+  background-color: #8ECCA1;
+  margin-bottom: 10px;
+}
+
+.clear-float {
+    clear:both;
+}
+
+article {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+nav {
+  background-color: #7AFFA3;
+  border-top: 3px solid #587F65;
+  border-bottom: 3px solid #587F65;
+  margin-top: 4px;
+}
+
+nav a {
+  background-color: #587F65;
+  color: white;
+  padding: 8px;
+  border: thin solid #0d1f2d;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  width: 100px;
+  float: left;
+}
+
+nav a:visited {
+  color: #e4c3ad;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #587F65;
+  font-weight: bold;
+}
+
+nav a:active {
+  text-decoration: none;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
